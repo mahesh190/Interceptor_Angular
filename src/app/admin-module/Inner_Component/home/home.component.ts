@@ -31,7 +31,6 @@ export class HomeComponent implements OnInit {
     return this.signupForm.get('confirm_passwords');
   }
   submitForms() {
-    debugger;
     console.log('errros', this.signupForm.errors);
 
     console.log(this.signupForm.value);
