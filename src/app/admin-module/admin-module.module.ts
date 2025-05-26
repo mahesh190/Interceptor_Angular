@@ -12,7 +12,6 @@ import { ContactsComponent } from './Inner_Component/contacts/contacts.component
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
-
 @NgModule({
   declarations: [
     HeaderComponentComponent,
