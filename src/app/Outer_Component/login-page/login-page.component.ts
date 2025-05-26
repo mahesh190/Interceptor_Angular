@@ -73,7 +73,7 @@ export class LoginPageComponent implements OnInit {
       if(users){
         alert("user found");
         localStorage.setItem("login-token",this.loginForms.get('userNames')?.value)
-       this.route.navigate(['/admin']);
+       this.route.navigate(['/admin']); 
 
       }
       else{
