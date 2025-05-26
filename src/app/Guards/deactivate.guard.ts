@@ -6,6 +6,7 @@ import { ContactsComponent } from '../admin-module/Inner_Component/contacts/cont
 @Injectable({
   providedIn: 'root'
 })
+
 export class DeactivateGuard implements CanDeactivate<ContactsComponent> {
   canDeactivate(
     component: unknown,
