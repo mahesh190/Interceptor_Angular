@@ -32,7 +32,6 @@ export class HomeComponent implements OnInit {
   }
   submitForms() {
     console.log('errros', this.signupForm.errors);
-
     console.log(this.signupForm.value);
     if (this.signupForm.invalid) {
       this.signupForm.markAllAsTouched();
